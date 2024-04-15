@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="classes"> 
+  <test name="Test1">
+    <classes>
+    <class name="rok.qa.Testcases.Verify_community_Login_02"/>
+      <class name="rok.qa.Testcases.Verify_created_lead_from_comunity_03"/>
+      <class name="rok.qa.Testcases.Verify_update_BF_lead_from_community_04" />
+      <!-- Add more test classes here -->
+    </classes>
+  </test> <!-- Test1 -->
+  
+  <!-- Add more <test> tags as needed for additional tests -->
+</suite> <!-- Suite -->

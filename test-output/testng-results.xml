@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-04-15T15:20:35 IST" name="Default suite" finished-at="2024-04-15T15:20:39 IST" duration-ms="3756">
+    <groups>
+    </groups>
+    <test started-at="2024-04-15T15:20:35 IST" name="Default test" finished-at="2024-04-15T15:20:39 IST" duration-ms="3756">
+      <class name="demo.PDFDownloadAndVerify">
+        <test-method is-config="true" signature="pdfsetup()[pri:0, instance:demo.PDFDownloadAndVerify@55fe41ea]" started-at="2024-04-15T15:20:35 IST" name="pdfsetup" finished-at="2024-04-15T15:20:38 IST" duration-ms="2834" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pdfsetup -->
+        <test-method signature="verifypdf()[pri:0, instance:demo.PDFDownloadAndVerify@55fe41ea]" started-at="2024-04-15T15:20:38 IST" name="verifypdf" finished-at="2024-04-15T15:20:39 IST" duration-ms="603" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifypdf -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:demo.PDFDownloadAndVerify@55fe41ea]" started-at="2024-04-15T15:20:39 IST" name="teardown" finished-at="2024-04-15T15:20:39 IST" duration-ms="258" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- demo.PDFDownloadAndVerify -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" thread-count="5">
+<listeners>
+<listener class-name="rok.qa.Utilities.ExtentListenerClass">
+</listener>
+</listeners>
+	<test thread-count="5" name="Test">
+		<classes>
+			<class name="rok.qa.Testcases.Verify_logo_on_login_page_01" />
+			<class name="rok.qa.Testcases.Verify_community_Login_02" />
+			<class name="rok.qa.Testcases.Verify_created_lead_from_comunity_03" />
+			<class name="rok.qa.Testcases.Verify_update_BF_lead_from_community_04" />
+			<class name="rok.qa.Testcases.Verify_converted_Community_Lead_into_opportunity_05" />
+			<class name="rok.qa.Testcases.Verify_add_referral_partner_lead_From_community_06" />
+			<class name="rok.qa.Testcases.Verify_update_RP_lead_from_community_07" />
+			<class name="rok.qa.Testcases.Verify_convert_lead_into_account_08" />
+			<class name="rok.qa.Testcases.Verify_add_business_Financing_lead_From_Landing_Page_09" />
+			<class name="rok.qa.Testcases.Verify_add_referral_partner_lead_from_landing_page_10" />
+			<class name="rok.qa.Testcases.Verify_created_lead_from_salesforce_end_11" />
+			<class name="rok.qa.Testcases.Verify_convert_lead_into_Opportunity_from_SalesForce_12" />
+			<class name="rok.qa.Testcases.Verify_created_Opportunity_From_Salesforce_13" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
